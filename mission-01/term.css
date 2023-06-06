@@ -16,20 +16,27 @@
 .webTerm {
   height: 100px;
   margin-top: 1em;
-  text-overflow: ellipsis;
 }
 
 .term__dt {
   display: inline-block;
   color: #296897;
   font-weight: bold;
-  
 }
 
 .term__dd {
   padding-top: 10px;
   font-weight: normal;
   margin : 0;
+  
+  width: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-word;
+  
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical
 }
 
 .term__img1 {
