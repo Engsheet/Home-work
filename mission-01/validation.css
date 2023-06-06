@@ -1,0 +1,20 @@
+.validator {
+  list-style-type: none;
+  padding: 0;
+}
+
+.validator__link {
+  color: black;
+  font-size: 1em;
+  display: block;
+  
+  width: 200px;
+  border: 1px solid #cccccc;
+  border-radius: 23px;
+  padding: 0.5em 3em;
+  margin: 1em;
+
+  text-decoration: none;
+
+  background: url(validation_icon.png) no-repeat 16px 50% #cccccc;
+}
