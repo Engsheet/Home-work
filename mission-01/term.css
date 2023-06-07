@@ -27,16 +27,17 @@
 .term__dd {
   padding-top: 10px;
   font-weight: normal;
-  margin : 0;
-  
+  margin: 0;
+
   width: auto;
   text-overflow: ellipsis;
   overflow: hidden;
   word-break: break-word;
-  
+
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical
+    /* 참고자료 : https://velog.io/@syoung125/CSS-text-overflow-ellipsis-%EB%91%90%EC%A4%84-%EC%9D%B4%EC%83%81-%EC%B2%98%EB%A6%AC */
 }
 
 .term__img1 {
