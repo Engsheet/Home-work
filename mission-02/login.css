@@ -1,0 +1,94 @@
+.loginBox {
+  width: 15rem;
+  padding: 0.75rem;
+  
+  background: linear-gradient(to right, #ED552F, #E8852E);
+  border: 1px solid #ED552F;
+  border-radius: 5px;
+  box-shadow: 5px 5px #aaaaaa;
+}
+
+.loginForm {
+  background-color: #fff;
+  margin-top: 10px;
+  font-size: 0.875rem;
+  border-radius: 5px;
+}
+
+.loginTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  color: yellow;
+}
+
+.loginFieldset {
+  padding: 0.5rem 0;
+  margin-left: 0.5rem;
+  border: #fff;
+  position: relative;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.loginLabel {
+  display: inline-block;
+  width: 60px;
+}
+
+.loginInputBox {
+  width: 5rem;
+  height: 24px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+}
+
+.loginButton {
+  background-color: #ED552F;
+  color: #fff;
+  position: absolute;
+  top: 11px;
+  right: 6px;
+  height: 56px;
+  border: none;
+  border-radius: 5px;
+}
+
+.userEmail__box,
+.userPassword__box {
+  margin: 4px 0;
+}
+
+.joinFindBox {
+  font-size: 12px;
+  padding: 0.5rem;
+  display: flow-root;
+}
+
+.join__link {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.find__link {
+  float: right;
+  color: black;
+  text-decoration: none;
+}
+
+.join__link::before,
+.find__link::before {
+  content: "\25B6  ";
+  color: #ED552F;
+}
