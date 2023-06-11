@@ -1,0 +1,52 @@
+.box {
+  box-sizing: border-box;
+}
+
+.relatedSite {
+  margin: 30px;
+  width : 196px;
+  border: 1px solid #181818;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #CCCCCC;
+}
+
+.relatedSiteTitle {
+  margin: 0px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  background-color: transparent;
+}
+
+.relatedSiteTitle span {
+  color: red;
+}
+
+.listWrapper {
+  margin: 0;
+  padding-left: 24px;
+  width: 170px;
+  height: 32px;
+  background-color: #FFF;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  line-height: 2rem;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.listWrapper:hover {
+  height: 164px;
+}
+
+.listWrapper li {
+  list-style: none;
+  font-size: 14px;
+}
+
+.listWrapper a {
+  color: #000;
+  text-decoration: none;
+}
