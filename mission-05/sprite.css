@@ -1,0 +1,82 @@
+.box {
+  box-sizing: border-box;
+}
+
+.favorite {
+  width: 190px;
+  padding: 12px;
+  background: linear-gradient(to bottom, #CCCCCC, #EEEEEE);
+  border: 1px solid #181818;
+  border-radius: 5px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.favoriteTitle {
+  margin: 0;
+  font-size: 15px;
+}
+
+.favoriteTitle span {
+  color: #ED552F;
+}
+
+.favoriteList {
+  width: 100%;
+  order: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+}
+
+.favoriteItem {
+  font-size: 14px;
+  list-style: none;
+  counter-increment: number;
+  background: url(../images/rank.png) no-repeat 0 0 / 12px 500%;
+}
+
+.favoriteItem::before {
+  content: counter(number);
+  display: inline-block;
+  width: 18px;
+  background: #A3A3A3;
+  text-align: center;
+  color: #FFF;
+  border-radius: 4px;
+  margin-right: 2px;
+}
+
+.favoriteMore {
+  font-size: 14px;
+}
+
+.favortieLink,
+.favoriteMore {
+  color: #000;
+  text-decoration: none;
+}
+
+.favoriteMore span {
+  color: #447231;
+  font-size: 20px;
+  vertical-align: top;
+  margin-right: 4px;
+}
+
+.spriteUp {
+  background-position: right top;
+}
+
+.spriteMaintain {
+  background-position: right center;
+}
+
+.spriteDown {
+  background-position: right bottom;
+}
